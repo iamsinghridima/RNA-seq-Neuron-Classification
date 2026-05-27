@@ -14,7 +14,7 @@ authors:
     given-names: "Aaryak"
 date-released: "2026-05-27"
 license: "MIT"
-abstract: "Machine learning classification of mouse neuronal cell types from Allen Brain Atlas single-cell RNA-seq expression profiles."
+abstract: "We propose a supervised learning approach to classify neuronal cell types from mouse single-cell RNA-seq expression profiles. Expression matrices and curated cell-type labels were obtained from the Allen Brain Atlas Cell Types dataset. After quality filtering, normalization, and selection of highly variable genes, models were trained to predict neuronal cell-type labels. We compare a baseline multinomial logistic regression model to a stronger ensemble method and evaluate performance using accuracy, macro F1, and confusion matrices. Results show that transcriptomic signatures are highly informative for distinguishing neuronal subtypes, while errors highlight closely related cell types with overlapping gene expression. This study demonstrates how machine learning can support automated annotation of neuronal identity from single-cell data."
 url: "https://github.com/iamsinghridima/RNA-seq-Neuron-Classification"
 references:
   - type: dataset
