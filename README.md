@@ -1,7 +1,7 @@
 # Single-Cell RNA-seq Neuronal Cell Type Classification in Mouse
 
 ## Project Summary
-This project predicts neuronal cell types from mouse single-cell RNA-seq expression profiles. It uses curated labels from the Allen Brain Atlas, applies standard preprocessing (QC, normalization, and highly variable gene selection), and compares a baseline multinomial logistic regression model with a stronger ensemble classifier.
+This project predicts neuronal cell types from mouse single-cell RNA-seq expression profiles. It uses curated labels from the Allen Brain Atlas, applies standard preprocessing (QC, normalization, and highly variable gene selection), and compares a baseline multinomial logistic regression model with a stronger ensemble classifier. It is machine learning classification of mouse neuronal cell types from Allen Brain Atlas single-cell RNA-seq expression profiles.
 
 ## Abstract
 We propose a supervised learning approach to classify neuronal cell types from mouse single-cell RNA-seq expression profiles. Expression matrices and curated cell-type labels were obtained from the Allen Brain Atlas Cell Types dataset. After quality filtering, normalization, and selection of highly variable genes, models were trained to predict neuronal cell-type labels. We compare a baseline multinomial logistic regression model to a stronger ensemble method and evaluate performance using accuracy, macro F1, and confusion matrices. Results show that transcriptomic signatures are highly informative for distinguishing neuronal subtypes, while errors highlight closely related cell types with overlapping gene expression. This study demonstrates how machine learning can support automated annotation of neuronal identity from single-cell data.
