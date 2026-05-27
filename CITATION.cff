@@ -15,6 +15,7 @@ authors:
 date-released: "2026-05-27"
 license: "MIT"
 abstract: "Machine learning classification of mouse neuronal cell types from Allen Brain Atlas single-cell RNA-seq expression profiles."
+url: https://github.com/iamsinghridima/RNA-seq-Neuron-Classification
 references:
   - type: dataset
     title: "Allen Brain Atlas Cell Types Database: RNA-seq Data"
