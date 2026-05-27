@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using the metadata below."
+title: "Single-Cell RNA-seq Neuronal Cell Type Classification in Mouse"
+authors:
+  - family-names: "Singh"
+    given-names: "Ridima"
+  - family-names: "Saini"
+    given-names: "Prabhleen Kaur"
+  - family-names: "Gupta"
+    given-names: "Mani"
+  - family-names: "Tandon"
+    given-names: "Eshita"
+  - family-names: "Srivastava"
+    given-names: "Aaryak"
+date-released: "2026-05-27"
+license: "MIT"
+abstract: "Machine learning classification of mouse neuronal cell types from Allen Brain Atlas single-cell RNA-seq expression profiles."
+references:
+  - type: dataset
+    title: "Allen Brain Atlas Cell Types Database: RNA-seq Data"
+    authors:
+      - name: "Allen Institute for Brain Science"
+    url: "https://celltypes.brain-map.org/"
+    notes: "Mouse cortex and hippocampus SMART-seq expression matrix and metadata used as the data source for this project."
