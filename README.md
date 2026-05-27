@@ -31,6 +31,7 @@ We propose a supervised learning approach to classify neuronal cell types from m
 If you use this project, please cite the following:
 - Data source: https://celltypes.brain-map.org/ (Allen Brain Atlas Cell Types)
 - Dataset: Allen Institute for Brain Science mouse cortex/hippocampus SMART-seq cell types data.
+- Project Source: https://github.com/iamsinghridima/RNA-seq-Neuron-Classification
 
 ## Authors
 - Name: Ridima Singh, Prabhleen Kaur Saini, Mani Gupta, Eshita Tandon, and Aaryak Srivastava
